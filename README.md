@@ -26,7 +26,7 @@ Replace <image_name> with the name of the Docker image for this project, which i
 
 
 3. Access the FastAPI Application
-After running the Docker container, you can access the FastAPI application on your local machine. Open your web browser and visit http://localhost:80 to interact with the API.
+After running the Docker container, you can access the FastAPI application on your local machine. Open your web browser and visit http://localhost:8000 to interact with the API.
 
 ```bash
 Customizing the MongoDB Configuration
