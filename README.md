@@ -1,7 +1,7 @@
-#MongoDB with FastAPI & Docker - Kimo Assessment
+# MongoDB with FastAPI & Docker - Kimo Assessment
 This repository contains a FastAPI project integrated with MongoDB, packaged as a Docker container. It provides a starting point for building RESTful APIs with FastAPI and MongoDB.
 
-#Prerequisites
+# Prerequisites
 Python version >= 3.10
 Docker installed on your local machine
 Usage
@@ -34,7 +34,7 @@ Customizing the MongoDB Configuration
 By default, the FastAPI application is configured to connect to a MongoDB database. If you want to customize the MongoDB configuration, you can modify the app.py file located in the app directory. Look for the MongoDB connection settings and update them according to your MongoDB instance.
 ```
 
-#Development Workflow
+# Development Workflow
 If you want to make changes to the FastAPI application and test them locally, follow these steps:
 
 1. Clone the repository to your local machine.
