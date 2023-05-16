@@ -12,7 +12,6 @@ This repository contains a FastAPI project integrated with MongoDB, packaged as 
 To get started, you need to pull the Docker image from the Docker Hub repository. Open a terminal and run the following command:
 
 ```bash
-Copy code
 docker pull <image_name>
 Replace <image_name> with the name of the Docker image for this project. In this case, the image name is kimo-assessment.
 ```
@@ -21,8 +20,6 @@ Replace <image_name> with the name of the Docker image for this project. In this
 Once the Docker image is pulled, you can run the container locally on your machine. Use the following command:
 
 ```bash
-bash
-Copy code
 docker run -p 80:80 <image_name>
 Replace <image_name> with the name of the Docker image for this project, which is kimo-assessment.
 ```
@@ -44,12 +41,10 @@ If you want to make changes to the FastAPI application and test them locally, fo
 3. Build a new Docker image using the updated code:
 
 ```bash
-Copy code
 docker build -t <image_name> .
 ```
 
 Run the Docker container using the new image:
 ```bash
-Copy code
 docker run -p 80:80 <image_name>
 ```
