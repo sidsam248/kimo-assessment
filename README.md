@@ -2,9 +2,11 @@
 This repository contains a FastAPI project integrated with MongoDB, packaged as a Docker container. It provides a starting point for building RESTful APIs with FastAPI and MongoDB.
 
 # Prerequisites
-Python version >= 3.10
-Docker installed on your local machine
-Usage
+1. Python version >= 3.10
+2. Docker installed on your local machine
+
+
+# Usage
 
 1. Pull the Docker Image
 To get started, you need to pull the Docker image from the Docker Hub repository. Open a terminal and run the following command:
