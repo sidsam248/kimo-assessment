@@ -75,9 +75,9 @@ class CoursesController:
             raise HTTPException(status_code=404, detail=f"Course {course_id} not found")
 
     # GET
-    # Prints out an overview of a course selected by _id
+    # Gets chapter by name
     # params:
-    # course_id -> id            
+    # chapter_name -> str            
     async def get_chapter_by_name(self, chapter_name: str):
         query = {"chapters.name": chapter_name}
         projection = {"chapters.$": 1}
@@ -93,7 +93,6 @@ class CoursesController:
     # course_id -> id 
     # chapter_name -> str
     # rating -> str   
-
     async def rate_chapter(self, course_id: str, chapter_name: str, rating: Rating):
         chapter = None
 
