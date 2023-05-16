@@ -33,6 +33,13 @@ Customizing the MongoDB Configuration
 By default, the FastAPI application is configured to connect to a MongoDB database. If you want to customize the MongoDB configuration, you can modify the app.py file located in the app directory. Look for the MongoDB connection settings and update them according to your MongoDB instance.
 ```
 
+# Test Application
+If you want to test the application simply run the below command in the root directory of the app.
+
+```bash
+pytest
+```
+
 # Development Workflow
 If you want to make changes to the FastAPI application and test them locally, follow these steps:
 
