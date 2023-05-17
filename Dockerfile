@@ -9,6 +9,9 @@ WORKDIR /app
 # 
 COPY ./requirements.txt /app/requirements.txt
 
+#
+COPY ./courses.json /app/courses.json
+
 # 
 RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 
